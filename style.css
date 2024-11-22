@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+#box{
+    height: 300px;
+    width: 200px;
+    background-color:white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 15px;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+button:active{
+    scale: 0.95;
+}
